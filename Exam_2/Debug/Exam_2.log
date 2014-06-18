@@ -1,0 +1,21 @@
+﻿Build started 6/17/2014 5:57:58 PM.
+     1>Project "C:\Users\Ben\Desktop\Exam_2\Exam_2\Exam_2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt registrants.cpp runner.cpp Source.cpp Source1.cpp
+         Source1.cpp
+         Source.cpp
+         runner.cpp
+         registrants.cpp
+     1>c:\users\ben\desktop\exam_2\exam_2\registrants.cpp(19): error C2664: 'void std::vector<Runner,std::allocator<_Ty>>::push_back(const Runner &)' : cannot convert argument 1 from 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'Runner &&'
+                 with
+                 [
+                     _Ty=Runner
+                 ]
+                 Reason: cannot convert from 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'Runner'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+         Generating Code...
+     1>Done Building Project "C:\Users\Ben\Desktop\Exam_2\Exam_2\Exam_2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.35
