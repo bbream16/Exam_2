@@ -8,12 +8,12 @@ using namespace std;
 
 class Registrants{
 private:
-	string name, filename;
+	string filename;
 	
 
 public:
 	vector<Runner> entries;
-	Registrants(string Name, string Filename);
+	Registrants(string Filename);
 
 };
 

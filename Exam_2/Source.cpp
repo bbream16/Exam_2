@@ -6,9 +6,8 @@
 using namespace std;
 
 
-Registrants::Registrants(string Name, string Filename){
-	name = Name;
-	filename = Filename;
+Registrants::Registrants(string Filename){
+	Filename = "C:\\Users\\Ben\\Desktop\\registrants.txt";
 
 	string firstname, lastname, pace;
 
@@ -25,7 +24,6 @@ Registrants::Registrants(string Name, string Filename){
 }
 
 int main() {
-	//Registrants reg("roster", "C:\\Users\\Ben\\Desktop\\registrants.txt");
 	string firstname, lastname;
 
 	sort(entries.begin(), entries.end());
